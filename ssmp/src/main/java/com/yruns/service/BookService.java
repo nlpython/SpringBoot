@@ -35,6 +35,11 @@ public interface BookService {
     List<Book> selectAll();
 
     /**
+     * 根据名称查询
+     */
+    List<Book> selectByName(String name);
+
+    /**
      * 分页查询
      */
     IPage<Book> getPage(int current, int size);

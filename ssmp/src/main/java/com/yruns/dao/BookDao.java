@@ -15,8 +15,8 @@ public interface BookDao extends BaseMapper<Book>{
     @Update("update tb_book set type=#{type}, name=#{name}, description=#{description} where id=#{id} and deleted=0;")
     int update(Book book);
 
-//    @Delete("delete from tb_book where id=#{id};")
-    @Update("update tb_book set type=#{type}, name=#{name}, description=#{description}, deleted = 1 where id=#{id} and deleted=0;")
+    @Delete("delete from tb_book where id=#{id};")
+//    @Update("update tb_book set type=#{type}, name=#{name}, description=#{description}, deleted = 1 where id=#{id} and deleted=0;")
     int delete(Integer id);
 
     @Select("select * from tb_book where id=#{id} and deleted=0;")
@@ -25,5 +25,7 @@ public interface BookDao extends BaseMapper<Book>{
     @Select("select * from tb_book where deleted=0;")
     List<Book> selectAll();
 
+    @Select("select * from tb_book where name like CONCAT('%',#{name},'%') and deleted=0;")
+    List<Book> selectByName(String name);
 
 }

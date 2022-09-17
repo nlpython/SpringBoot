@@ -60,6 +60,13 @@ public class BookController {
         assert books != null;
         return new Result(code, books.getRecords(), msg);
     }
-    
-    
+
+    @GetMapping("/getByName")
+    public Result getByName(@RequestParam("name") String name) {
+        List<Book> books = bookService.selectByName(name);
+        Integer code = books != null ? Code.GET_OK:Code.GET_ERR;
+        String msg = books != null ? "":"数据查询失败";
+        return new Result(code, books, msg);
+    }
+
 }

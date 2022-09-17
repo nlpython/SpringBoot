@@ -45,6 +45,11 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
+    public List<Book> selectByName(String name) {
+        return bookDao.selectByName(name);
+    }
+
+    @Override
     public IPage<Book> getPage(int current, int size) {
         IPage page = new Page(current, size);
         return bookDao.selectPage(page, null);
