@@ -1,0 +1,339 @@
+2022-09-28 00:21:31.356  INFO 8200 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 8200 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:21:31.362  INFO 8200 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:21:31.430  INFO 8200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 00:21:31.430  INFO 8200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 00:21:33.057  INFO 8200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:21:33.067  INFO 8200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:21:33.067  INFO 8200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:21:33.182  INFO 8200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:21:33.182  INFO 8200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1751 ms
+2022-09-28 00:21:35.650  WARN 8200 --- [restartedMain] c.b.m.core.injector.AbstractMethod       : [com.yruns.dao.BookDao.delete] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Delete]
+2022-09-28 00:21:35.684  WARN 8200 --- [restartedMain] c.b.m.core.injector.AbstractMethod       : [com.yruns.dao.BookDao.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+2022-09-28 00:21:35.688  WARN 8200 --- [restartedMain] c.b.m.core.injector.AbstractMethod       : [com.yruns.dao.BookDao.selectById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectById]
+2022-09-28 00:21:36.001  INFO 8200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:21:36.328  INFO 8200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:21:36.371  INFO 8200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:21:36.381  INFO 8200 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 5.495 seconds (JVM running for 7.511)
+2022-09-28 00:21:46.538  INFO 8200 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:21:46.539  INFO 8200 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:21:46.540  INFO 8200 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-28 00:21:46.653  INFO 8200 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-28 00:22:15.109  INFO 40572 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 40572 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:22:15.111  INFO 40572 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:22:15.187  INFO 40572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 00:22:15.187  INFO 40572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 00:22:16.820  INFO 40572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:22:16.833  INFO 40572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:22:16.834  INFO 40572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:22:16.989  INFO 40572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:22:16.989  INFO 40572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1801 ms
+2022-09-28 00:22:19.188  INFO 40572 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:22:19.448  INFO 40572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:22:19.503  INFO 40572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:22:19.517  INFO 40572 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 4.955 seconds (JVM running for 6.719)
+2022-09-28 00:22:37.424  INFO 40572 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:22:37.424  INFO 40572 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:22:37.424  INFO 40572 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-28 00:22:37.531  INFO 40572 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-28 00:25:02.667  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 40200 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:25:02.671  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:25:02.740  INFO 40200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 00:25:02.740  INFO 40200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 00:25:04.049  INFO 40200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:25:04.058  INFO 40200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:25:04.058  INFO 40200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:25:04.152  INFO 40200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:25:04.153  INFO 40200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1413 ms
+2022-09-28 00:25:06.771  INFO 40200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:25:07.019  INFO 40200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:25:07.066  INFO 40200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:25:07.078  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 4.882 seconds (JVM running for 6.675)
+2022-09-28 00:25:07.414  INFO 40200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:25:07.415  INFO 40200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:25:07.416  INFO 40200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-28 00:25:07.511  INFO 40200 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-09-28 00:35:55.860  INFO 40200 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2022-09-28 00:35:56.768  INFO 40200 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:35:56.771  INFO 40200 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 00:35:56.776  WARN 40200 --- [Thread-6] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-27156974] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2576)
+2022-09-28 00:35:56.776  WARN 40200 --- [Thread-6] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-27156974] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2672)
+2022-09-28 00:35:56.786  INFO 40200 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-09-28 00:35:56.792  INFO 40200 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-09-28 00:35:56.911  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 40200 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:35:56.911  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:35:57.470  INFO 40200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:35:57.472  INFO 40200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:35:57.472  INFO 40200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:35:57.510  INFO 40200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:35:57.510  INFO 40200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 596 ms
+2022-09-28 00:35:58.844  INFO 40200 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:35:58.955  INFO 40200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:35:58.981  INFO 40200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:35:58.986  INFO 40200 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 2.119 seconds (JVM running for 658.583)
+2022-09-28 00:35:58.987  INFO 40200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:45:19.065  INFO 41616 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 41616 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:45:19.071  INFO 41616 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:45:19.160  INFO 41616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 00:45:19.161  INFO 41616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 00:45:20.701  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:45:20.712  INFO 41616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:45:20.712  INFO 41616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:45:20.845  INFO 41616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:45:20.845  INFO 41616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1684 ms
+2022-09-28 00:45:23.236  INFO 41616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:45:23.484  INFO 41616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:45:23.526  INFO 41616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:45:23.535  INFO 41616 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 4.984 seconds (JVM running for 7.054)
+2022-09-28 00:45:34.433  INFO 41616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:45:34.433  INFO 41616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:45:34.434  INFO 41616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-28 00:46:33.649  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:46:33.651  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:46:33.717  INFO 20748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 00:46:33.718  INFO 20748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 00:46:35.044  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:46:35.053  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:46:35.053  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:46:35.145  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:46:35.146  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
+2022-09-28 00:46:37.442  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:46:37.693  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:46:37.736  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:46:37.746  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 4.569 seconds (JVM running for 6.581)
+2022-09-28 00:46:42.839  INFO 20748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:46:42.840  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:46:42.840  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-28 00:46:47.185  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-28 00:46:48.092  INFO 20748 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:46:48.092  INFO 20748 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 00:46:48.109  INFO 20748 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:46:48.198  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:46:48.198  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:46:48.503  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:46:48.504  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:46:48.504  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:46:48.537  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:46:48.537  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 336 ms
+2022-09-28 00:46:49.742  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:46:49.814  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:46:49.827  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:46:49.830  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.666 seconds (JVM running for 18.665)
+2022-09-28 00:46:49.832  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:46:51.233  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-28 00:46:52.061  INFO 20748 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:46:52.072  INFO 20748 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:46:52.161  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:46:52.161  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:46:52.440  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:46:52.441  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:46:52.442  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:46:52.465  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:46:52.465  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 302 ms
+2022-09-28 00:46:53.504  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:46:53.568  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:46:53.579  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:46:53.583  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.454 seconds (JVM running for 22.418)
+2022-09-28 00:46:53.584  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:46:54.088  INFO 20748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:46:54.089  INFO 20748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:46:54.090  INFO 20748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-28 00:48:16.678  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-28 00:48:17.531  INFO 20748 --- [Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:48:17.532  INFO 20748 --- [Thread-12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 00:48:17.541  INFO 20748 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:48:17.617  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:48:17.617  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:48:17.989  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:48:17.989  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:48:17.990  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:48:18.019  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:48:18.019  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 400 ms
+2022-09-28 00:48:19.266  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:48:19.349  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:48:19.364  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:48:19.369  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.78 seconds (JVM running for 108.204)
+2022-09-28 00:48:19.370  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:48:20.770  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-28 00:48:21.575  INFO 20748 --- [Thread-16] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:48:21.584  INFO 20748 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:48:21.661  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:48:21.661  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:48:21.950  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:48:21.951  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:48:21.951  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:48:21.980  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:48:21.981  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2022-09-28 00:48:22.947  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:48:23.012  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:48:23.024  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:48:23.028  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.396 seconds (JVM running for 111.862)
+2022-09-28 00:48:23.029  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:48:23.481  INFO 20748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:48:23.481  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:48:23.482  INFO 20748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-28 00:56:58.765  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2022-09-28 00:56:59.645  INFO 20748 --- [Thread-20] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:56:59.646  INFO 20748 --- [Thread-20] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 00:56:59.652  INFO 20748 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:56:59.753  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:56:59.753  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:57:00.190  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:57:00.191  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:57:00.191  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:57:00.223  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:57:00.223  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 467 ms
+2022-09-28 00:57:01.510  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:57:01.584  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:57:01.604  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:57:01.608  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.89 seconds (JVM running for 630.443)
+2022-09-28 00:57:01.610  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:57:03.010  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2022-09-28 00:57:03.859  INFO 20748 --- [Thread-24] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:57:03.863  INFO 20748 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:57:03.947  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:57:03.948  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:57:04.276  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:57:04.277  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:57:04.277  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:57:04.332  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:57:04.332  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 383 ms
+2022-09-28 00:57:05.487  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:57:05.553  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:57:05.565  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:57:05.568  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.649 seconds (JVM running for 634.403)
+2022-09-28 00:57:05.569  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:57:27.139  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-28 00:57:28.099  INFO 20748 --- [Thread-28] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:57:28.109  INFO 20748 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:57:28.199  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:57:28.199  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:57:28.550  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:57:28.551  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:57:28.551  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:57:28.599  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:57:28.600  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 399 ms
+2022-09-28 00:57:29.877  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:57:29.959  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:57:29.980  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:57:29.983  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.822 seconds (JVM running for 658.818)
+2022-09-28 00:57:29.984  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:57:31.378  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-28 00:57:32.253  INFO 20748 --- [Thread-32] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:57:32.262  INFO 20748 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:57:32.347  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:57:32.348  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:57:32.695  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:57:32.696  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:57:32.696  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:57:32.729  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:57:32.729  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 379 ms
+2022-09-28 00:57:33.843  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:57:33.909  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:57:33.921  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:57:33.924  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.602 seconds (JVM running for 662.759)
+2022-09-28 00:57:33.926  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:58:12.751  INFO 20748 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 00:58:12.752  INFO 20748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 00:58:12.752  INFO 20748 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-28 00:59:55.497  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-28 00:59:56.387  INFO 20748 --- [Thread-36] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 00:59:56.388  INFO 20748 --- [Thread-36] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 00:59:56.395  INFO 20748 --- [Thread-36] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 00:59:56.503  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 00:59:56.503  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 00:59:56.896  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 00:59:56.897  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 00:59:56.897  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 00:59:56.927  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 00:59:56.928  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 422 ms
+2022-09-28 00:59:58.045  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 00:59:58.122  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 00:59:58.136  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 00:59:58.140  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.675 seconds (JVM running for 806.975)
+2022-09-28 00:59:58.142  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 00:59:59.542  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-09-28 01:00:00.332  INFO 20748 --- [Thread-40] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 01:00:00.340  INFO 20748 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 01:00:00.414  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 01:00:00.414  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 01:00:00.662  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 01:00:00.663  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 01:00:00.663  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 01:00:00.692  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 01:00:00.692  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 276 ms
+2022-09-28 01:00:01.627  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 01:00:01.688  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 01:00:01.704  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 01:00:01.708  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.319 seconds (JVM running for 810.543)
+2022-09-28 01:00:01.710  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 01:02:00.128  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2022-09-28 01:02:01.014  INFO 20748 --- [Thread-44] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 01:02:01.023  INFO 20748 --- [Thread-44] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 01:02:01.097  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 01:02:01.097  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 01:02:01.445  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 01:02:01.446  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 01:02:01.446  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 01:02:01.475  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 01:02:01.475  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 375 ms
+2022-09-28 01:02:02.425  WARN 20748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'msgController': Unsatisfied dependency expressed through field 'msgService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.yruns.service.MsgService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-09-28 01:02:02.425  INFO 20748 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 01:02:02.425  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 01:02:02.431  INFO 20748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-28 01:02:02.454 ERROR 20748 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field msgService in com.yruns.controller.MsgController required a bean of type 'com.yruns.service.MsgService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.yruns.service.MsgService' in your configuration.
+
+2022-09-28 01:02:03.909  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 01:02:03.909  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 01:02:04.264  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 01:02:04.265  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 01:02:04.266  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 01:02:04.309  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-09-28 01:02:04.310  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 397 ms
+2022-09-28 01:02:05.395  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 01:02:05.491  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 01:02:05.504  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 01:02:05.514  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.637 seconds (JVM running for 934.349)
+2022-09-28 01:02:05.515  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-28 01:02:12.472  INFO 20748 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-28 01:02:12.473  INFO 20748 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-28 01:02:12.474  INFO 20748 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-09-28 01:04:52.277  INFO 20748 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-28 01:04:53.181  INFO 20748 --- [Thread-48] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-28 01:04:53.182  INFO 20748 --- [Thread-48] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-28 01:04:53.190  INFO 20748 --- [Thread-48] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-09-28 01:04:53.273  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Starting SpringbootApplication using Java 1.8.0_311 on LAPTOP-IPRUMAVP with PID 20748 (D:\Codefield\IdeaProjects\JAVAEE\springboot\ssmp\target\classes started by 姝、 in D:\Codefield\IdeaProjects\JAVAEE\springboot)
+2022-09-28 01:04:53.274  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-09-28 01:04:53.658  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-28 01:04:53.658  INFO 20748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 01:04:53.658  INFO 20748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 01:04:53.690  INFO 20748 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-09-28 01:04:53.690  INFO 20748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+2022-09-28 01:04:54.833  INFO 20748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-09-28 01:04:54.909  INFO 20748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 01:04:54.922  INFO 20748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-28 01:04:54.926  INFO 20748 --- [restartedMain] com.yruns.SpringbootApplication          : Started SpringbootApplication in 1.683 seconds (JVM running for 1103.761)
+2022-09-28 01:04:54.927  INFO 20748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

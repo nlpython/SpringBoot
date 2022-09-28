@@ -9,8 +9,10 @@ import com.yruns.service.BookService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
+@Transactional
 class SpringbootApplicationTests {
 
     @Autowired
@@ -37,6 +39,9 @@ class SpringbootApplicationTests {
         book.setType("bb");
         bookDao.insert(book);
     }
+
+
+
 
     @Test
     public void testDeleteById() {

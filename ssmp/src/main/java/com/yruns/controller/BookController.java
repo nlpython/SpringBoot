@@ -1,9 +1,13 @@
 package com.yruns.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.yruns.controller.utils.Code;
+import com.yruns.controller.utils.Result;
 import com.yruns.pojo.Book;
 import com.yruns.service.BookService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,6 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/books")
+@Slf4j
 public class BookController {
 
     @Autowired
@@ -21,6 +26,7 @@ public class BookController {
     @PostMapping
     public Result save(@RequestBody Book book) {
         boolean flag = bookService.save(book);
+        log.info("information....");
         return new Result(flag ? Code.SAVE_OK:Code.SAVE_ERR, flag);
     }
 

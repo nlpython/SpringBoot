@@ -9,15 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="start" />
         <module name="ssmp" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="redis" target="1.8" />
       <module name="ssmp" target="1.8" />
       <module name="start" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis" options="-parameters" />
       <module name="ssmp" options="-parameters" />
       <module name="start" options="-parameters" />
     </option>

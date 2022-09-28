@@ -6,6 +6,7 @@ import com.yruns.dao.BookDao;
 import com.yruns.pojo.Book;
 import com.yruns.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -35,6 +36,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
+    @Cacheable(value = "cacheSpace", key = "#id")
     public Book selectById(Integer id) {
         return bookDao.selectById(id);
     }
