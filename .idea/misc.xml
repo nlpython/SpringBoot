@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/start/pom.xml" />
         <option value="$PROJECT_DIR$/ssmp/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/javamail/pom.xml" />
       </list>
     </option>
   </component>
