@@ -3,12 +3,14 @@ package com.yruns.pojo;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * Book
  */
 @Data
 @TableName("tb_book")
-public class Book{
+public class Book implements Serializable {
     @TableId(type= IdType.AUTO)
     private Integer id;
     private String type;
