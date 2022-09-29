@@ -8,6 +8,31 @@ spring:
   # 缓存配置
   cache:
     type: ehcache
+  main:
+    allow-circular-references: true
+
+jetcache:
+  remote:
+    default:
+      type: redis
+      host: localhost
+      port: 6379
+      poolConfig:
+        maxTotal: 50
+    sms:
+      type: redis
+      host: localhost
+      port: 6379
+      poolConfig:
+        maxTotal: 50
+  local:
+    default:
+      type: linkedhashmap
+      keyConvertor: fastjson  # 指定类转换为String的工具
+
+      poolConfig:
+        maxTotal: 50
+
 
 
 # 开启mybatis日志
