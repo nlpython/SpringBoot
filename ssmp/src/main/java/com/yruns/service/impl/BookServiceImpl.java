@@ -36,7 +36,6 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    @Cacheable(value = "cacheSpace", key = "#id")
     public Book selectById(Integer id) {
         return bookDao.selectById(id);
     }
