@@ -10,6 +10,6 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 public class MyQuart extends QuartzJobBean {
     @Override
     protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
-        System.out.println("quart task run...");
+//        System.out.println("quart task run...");
     }
 }

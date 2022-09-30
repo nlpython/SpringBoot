@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.yruns.SpringbootApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.981 s - in com.yruns.SpringbootApplicationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.412 s - in com.yruns.SpringbootApplicationTests
